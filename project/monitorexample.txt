@@ -1,0 +1,26 @@
+
+woensdag 5 februari 2014 14:30:00
+
+
+
+VMName    AvgCPU(MHz) AvgRAM(M) MaxRAM(M) MinRAM(M) TotalDisk(M) NetworkInbound(M) NetworkOutbound(M)
+------    ----------- --------- --------- --------- ------------ ----------------- ------------------
+finaltest 0           0         0         0         0            0                 0                 
+
+
+
+VMName  AvgCPU(MHz) AvgRAM(M) MaxRAM(M) MinRAM(M) TotalDisk(M) NetworkInbound(M) NetworkOutbound(M)
+------  ----------- --------- --------- --------- ------------ ----------------- ------------------
+newtest 0           0         0         0         0            0                 0                 
+
+
+
+VMName AvgCPU(MHz) AvgRAM(M) MaxRAM(M) MinRAM(M) TotalDisk(M) NetworkInbound(M) NetworkOutbound(M)
+------ ----------- --------- --------- --------- ------------ ----------------- ------------------
+test   72          513       1024      512       10240        0                 0                 
+
+
+
+VMName    AvgCPU(MHz) AvgRAM(M) MaxRAM(M) MinRAM(M) TotalDisk(M) NetworkInbound(M) NetworkOutbound(M)
+------    ----------- --------- --------- --------- ------------ ----------------- ------------------
+WindowsVM 2           512       512       512       10240        2                 2     

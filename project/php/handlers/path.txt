@@ -1,0 +1,4 @@
+C:\HyperV
+C:\HyperV\images
+C:\sites\hypermanager\uploads
+C:\Tempstorage

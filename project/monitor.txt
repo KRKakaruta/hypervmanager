@@ -1,0 +1,26 @@
+$vms = get-vm | Select -ExpandProperty Name
+
+forEach ($vm in $vms){
+	$measure = Measure-VM $vm
+# check if extra cores need to be added to the vm
+	if($measure | fl | Select -ExpandProperty AvgCPU -ge 90){
+
+	}
+
+
+# check if extra ram is needed 
+	#$avg = $measure | Select -ExpandProperty AvgRAM
+	#$maxvm = $Get-VMMemory $vm | Select -ExpandProperty Maximum
+	#$maxhost = ((Get-WmiObject Win32_PhysicalMemory | Select -ExpandProperty Capacity | Measure-Object -Sum).Sum)/1MB
+	
+	#if($avg/$maxvm -ge 0,95){
+	if($measure | fl | Select -ExpandProperty AvgRAM -ge 95)
+		if($maxvm/3 + $maxvm -ge ($maxhost - 2000){
+		}
+	}
+
+# re-enable resource metering
+Disable-VMResourceMetering $vm
+Enable-VMResourceMetering $vm
+
+}
